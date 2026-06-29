@@ -6,7 +6,7 @@ class TipoPedido:
     @property
     def descricao(self):
         return self.__descricao
-    
+
     @descricao.setter
     def descricao(self, descricao):
         self.__descricao = descricao
@@ -14,7 +14,7 @@ class TipoPedido:
     @property
     def fator_distancia(self):
         return self.__fator_distancia
-    
+
     @fator_distancia.setter
     def fator_distancia(self, fator_distancia):
         self.__fator_distancia = fator_distancia
